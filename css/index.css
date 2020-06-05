@@ -21,7 +21,9 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
+   
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -104,7 +106,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,147 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+header {
+    padding: 30px 0px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.lambda-pic {
+    width: 20%;
+}
+
+.nav {
+    width: 80%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    padding: 0px 2px;
+}
+
+.wide {
+    margin-bottom: 20px;
+}
+
+.box1 {
+    background-color: teal;
+} 
+
+.box2 {
+    background-color: gold;
+} 
+
+.box3 {
+    background-color: cadetblue;
+} 
+
+.box4 {
+    background-color: coral;
+} 
+
+.box5 {
+    background-color: crimson;
+} 
+
+.box6 {
+    background-color: forestgreen;
+} 
+
+.box7 {
+    background-color: darkorchid;
+} 
+
+.box8 {
+    background-color: hotpink;
+} 
+
+.box9 {
+    background-color: indigo;
+} 
+
+.box10 {
+    background-color: dodgerblue;
+} 
+
+hr.bigline {
+    border-top: 1px dashed black;
+    margin: 30px 0px;
+}
+
+hr.block-line {
+    border-top: 1px dashed black;
+    margin-bottom: 50px;
+}
+
+
+
+.about {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.block-info {
+    width: 45%;
+}
+
+.block-pic {
+    width: 100%;
+}
+
+.block-title {
+    margin-top: 9px;
+}
+
+.learn {
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.worktogether {
+    width: 93%;
+    margin: 35px auto;
+}
+
+.wide-pic {
+    width: 100%;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
 }
